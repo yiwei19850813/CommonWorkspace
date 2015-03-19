@@ -1,0 +1,88 @@
+platform :ios, '7.0'
+
+pod 'AFNetworking', '~> 2.3.1'
+
+pod 'SDWebImage', '~> 3.7.1'
+
+pod 'UIAlertView+Blocks', '~> 0.8.1'
+pod 'UIActionSheet+Blocks', '~> 0.8.1'
+
+pod 'UIDeviceIdentifier', '~> 0.4.2'
+
+pod 'NSObject+AssociatedDictionary', '~> 1.0'
+pod 'NSObjectProperties', '~> 0.0.3'
+pod 'NSObject+Dealloc', '~> 1.1'
+pod 'NSObject+Singleton', '~> 1.0.0'
+pod 'NSObject-MUJSONMapping', '~> 1.0.0'
+pod 'NSObject-ObjectIO', '~> 1.0.0'
+
+pod 'BackgroundBlurEffectUIView', '~> 0.0.1'
+pod 'UIView+AnimationExtensions', '~> 1.0.0'
+pod 'UIView+DebugQuickLook', '~> 1.0'
+pod 'UIView+Loading', '~> 1.0.0'
+pod 'UIView+MGBadgeView', '~> 0.0.1'
+pod 'UIView+Positioning', '~> 1.0.1'
+pod 'UIView+UIViewController-Property', '~> 1.0.1'
+pod 'PureLayout', '~> 1.0.1'
+
+pod 'UIColor+Hex', '~> 1.0.1'
+
+pod 'UIImage+Additions', '~> 1.1.0'
+pod 'UIImage+BlurAndDarken', '~> 0.0.1'
+pod 'UIImage+Transforms', '~> 1.0.1'
+pod 'UIImage-Helpers', '~> 0.0.2'
+pod 'UIImage-Resize', '~> 1.0.1'
+
+pod 'NSData+Base64', '~> 1.0.0'
+pod 'NSData+MD5Digest', '~> 1.0.0'
+
+pod 'MagicalRecord', '~> 2.2'
+
+pod 'SSKeychain', '~> 1.2.2'
+
+pod 'FastAnimationWithPOP', '~> 0.0.2'
+
+pod 'CocoaAsyncSocket', '~> 7.3.5'
+
+pod 'JSBadgeView', '~> 1.3.2'
+
+pod 'RZTransitions', '~> 1.0'
+
+pod 'TSMessages', '~> 0.9.9'
+
+pod 'MBProgressHUD', '~> 0.9'
+
+pod 'KLCPopup', '~> 1.0'
+
+pod 'NSStringFromAnyObject', '~> 0.0.4'
+
+pod 'JSONKit-NoWarning', '~> 1.2'
+
+pod 'SBJson', '~> 3.1'
+
+pod 'UMengAnalytics', '~> 3.1.2'
+
+pod 'UIDevice-Helpers', '~> 0.0.2'
+
+pod 'ZipArchive', '1.1.0'
+
+pod 'JGProgressHUD', '~> 1.2.2'
+
+pod 'ASIHTTPRequest', '~> 1.8.2'
+
+pod 'Reachability', '~> 3.2'
+
+
+post_install do |installer|
+    
+    installer.project.targets.each do |target|
+        
+        target.build_configurations.each do |config|
+            
+            config.build_settings['ARCHS'] = "armv7"
+            
+        end
+        
+    end
+    
+end
