@@ -13,6 +13,10 @@
 		CB614A321AB1DD93000F1FD2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB6149831AB1DD92000F1FD2 /* Images.xcassets */; };
 		CB614A331AB1DD93000F1FD2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB6149851AB1DD92000F1FD2 /* LaunchScreen.xib */; };
 		CB614A341AB1DD93000F1FD2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB6149871AB1DD92000F1FD2 /* Main.storyboard */; };
+		CB9785A91AC7AEAB00C9D938 /* ICSDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9785A61AC7AEAB00C9D938 /* ICSDrawerController.m */; };
+		CB9785AA1AC7AEAB00C9D938 /* ICSDropShadowView.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9785A81AC7AEAB00C9D938 /* ICSDropShadowView.m */; };
+		CB9785AF1AC7AF6F00C9D938 /* ICSColorsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9785AC1AC7AF6F00C9D938 /* ICSColorsViewController.m */; };
+		CB9785B01AC7AF6F00C9D938 /* ICSPlainColorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9785AE1AC7AF6F00C9D938 /* ICSPlainColorViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +45,14 @@
 		CB6149901AB1DD92000F1FD2 /* EnumDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnumDefine.h; sourceTree = "<group>"; };
 		CB614A751AB1E0B8000F1FD2 /* NetworkInterfaceDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkInterfaceDefine.h; sourceTree = "<group>"; };
 		CB9785A31AC7A90300C9D938 /* Global.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Global.h; sourceTree = "<group>"; };
+		CB9785A51AC7AEAB00C9D938 /* ICSDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICSDrawerController.h; sourceTree = "<group>"; };
+		CB9785A61AC7AEAB00C9D938 /* ICSDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICSDrawerController.m; sourceTree = "<group>"; };
+		CB9785A71AC7AEAB00C9D938 /* ICSDropShadowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICSDropShadowView.h; sourceTree = "<group>"; };
+		CB9785A81AC7AEAB00C9D938 /* ICSDropShadowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICSDropShadowView.m; sourceTree = "<group>"; };
+		CB9785AB1AC7AF6F00C9D938 /* ICSColorsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICSColorsViewController.h; sourceTree = "<group>"; };
+		CB9785AC1AC7AF6F00C9D938 /* ICSColorsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICSColorsViewController.m; sourceTree = "<group>"; };
+		CB9785AD1AC7AF6F00C9D938 /* ICSPlainColorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICSPlainColorViewController.h; sourceTree = "<group>"; };
+		CB9785AE1AC7AF6F00C9D938 /* ICSPlainColorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICSPlainColorViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +96,10 @@
 			children = (
 				CB6148AB1AB1DA1C000F1FD2 /* AppDelegate.h */,
 				CB6148AC1AB1DA1C000F1FD2 /* AppDelegate.m */,
+				CB9785AB1AC7AF6F00C9D938 /* ICSColorsViewController.h */,
+				CB9785AC1AC7AF6F00C9D938 /* ICSColorsViewController.m */,
+				CB9785AD1AC7AF6F00C9D938 /* ICSPlainColorViewController.h */,
+				CB9785AE1AC7AF6F00C9D938 /* ICSPlainColorViewController.m */,
 				CB6149C61AB1DD92000F1FD2 /* UI */,
 				CB61498A1AB1DD92000F1FD2 /* Service */,
 				CB61497D1AB1DD92000F1FD2 /* Model */,
@@ -230,6 +246,7 @@
 		CB6149C61AB1DD92000F1FD2 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				CB9785A41AC7AEAB00C9D938 /* ICSDrawerController */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -240,6 +257,18 @@
 				CB614A751AB1E0B8000F1FD2 /* NetworkInterfaceDefine.h */,
 			);
 			path = Comon;
+			sourceTree = "<group>";
+		};
+		CB9785A41AC7AEAB00C9D938 /* ICSDrawerController */ = {
+			isa = PBXGroup;
+			children = (
+				CB9785A51AC7AEAB00C9D938 /* ICSDrawerController.h */,
+				CB9785A61AC7AEAB00C9D938 /* ICSDrawerController.m */,
+				CB9785A71AC7AEAB00C9D938 /* ICSDropShadowView.h */,
+				CB9785A81AC7AEAB00C9D938 /* ICSDropShadowView.m */,
+			);
+			name = ICSDrawerController;
+			path = BaseController/ICSDrawerController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -342,8 +371,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB9785AF1AC7AF6F00C9D938 /* ICSColorsViewController.m in Sources */,
 				CB6148AD1AB1DA1C000F1FD2 /* AppDelegate.m in Sources */,
+				CB9785A91AC7AEAB00C9D938 /* ICSDrawerController.m in Sources */,
 				CB6148AA1AB1DA1C000F1FD2 /* main.m in Sources */,
+				CB9785AA1AC7AEAB00C9D938 /* ICSDropShadowView.m in Sources */,
+				CB9785B01AC7AF6F00C9D938 /* ICSPlainColorViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

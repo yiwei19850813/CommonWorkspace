@@ -7,6 +7,9 @@
 //
 
 #import "AppDelegate.h"
+#import "ICSDrawerController.h"
+#import "ICSColorsViewController.h"
+#import "ICSPlainColorViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +20,24 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.backgroundColor = [UIColor blackColor];
+    
+    NSArray *colors = @[[UIColor colorWithRed:237.0f/255.0f green:195.0f/255.0f blue:0.0f/255.0f alpha:1.0f],
+                        [UIColor colorWithRed:237.0f/255.0f green:147.0f/255.0f blue:0.0f/255.0f alpha:1.0f],
+                        [UIColor colorWithRed:237.0f/255.0f green:9.0f/255.0f blue:0.0f/255.0f alpha:1.0f]
+                        ];
+    
+    ICSColorsViewController *colorsVC = [[ICSColorsViewController alloc] initWithColors:colors];
+    ICSPlainColorViewController *plainColorVC = [[ICSPlainColorViewController alloc] init];
+    plainColorVC.view.backgroundColor = colors[0];
+    
+    ICSDrawerController *drawer = [[ICSDrawerController alloc] initWithLeftViewController:colorsVC
+                                                                     centerViewController:plainColorVC];
+    
+    self.window.rootViewController = drawer;
+    [self.window makeKeyAndVisible];
     return YES;
 }
 
