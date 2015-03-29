@@ -1,6 +1,6 @@
 //
 //  NetworkInterfaceDefine.h
-//  MiguMV
+//  
 //  description:网络接口定义,新增加接口文件，需要把头文件加入这里
 //  Created by xdyang on 14-8-22.
 //  Copyright (c) 2014年 iflytek. All rights reserved.

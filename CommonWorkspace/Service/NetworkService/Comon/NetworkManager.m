@@ -1,6 +1,5 @@
 //
 //  NetworkManager.m
-//  MiguMV
 //
 //  Created by xdyang on 14-8-16.
 //  Copyright (c) 2014年 iflytek. All rights reserved.
@@ -10,8 +9,6 @@
 #import "NSString+NSStringAddition.h"
 #import "NSString+Encrypt3DESandBase64.h"
 #import "AFHTTPRequestOperation.h"
-
-#import "DataStoreManager.h"
 
 
 #define E_KEY  @"9HkocpYLeG1LNi5m"

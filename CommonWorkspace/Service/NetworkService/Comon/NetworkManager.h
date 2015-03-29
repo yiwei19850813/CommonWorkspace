@@ -1,11 +1,10 @@
 //
 //  NetworkManager.h
-//  MiguMV
+//
 //  description:网络请求
-
-/*
-    网络请求类，并监控网络的开关、监控当前网络连接状态的改变
- */
+//
+//  网络请求类，并监控网络的开关、监控当前网络连接状态的改变
+//
 //  Created by xdyang on 14-8-16.
 //  Copyright (c) 2014年 iflytek. All rights reserved.
 //
