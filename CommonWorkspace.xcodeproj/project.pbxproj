@@ -13,10 +13,13 @@
 		CB614A321AB1DD93000F1FD2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB6149831AB1DD92000F1FD2 /* Images.xcassets */; };
 		CB614A331AB1DD93000F1FD2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB6149851AB1DD92000F1FD2 /* LaunchScreen.xib */; };
 		CB614A341AB1DD93000F1FD2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB6149871AB1DD92000F1FD2 /* Main.storyboard */; };
-		CB9785A91AC7AEAB00C9D938 /* ICSDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9785A61AC7AEAB00C9D938 /* ICSDrawerController.m */; };
-		CB9785AA1AC7AEAB00C9D938 /* ICSDropShadowView.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9785A81AC7AEAB00C9D938 /* ICSDropShadowView.m */; };
 		CB9785AF1AC7AF6F00C9D938 /* ICSColorsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9785AC1AC7AF6F00C9D938 /* ICSColorsViewController.m */; };
 		CB9785B01AC7AF6F00C9D938 /* ICSPlainColorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9785AE1AC7AF6F00C9D938 /* ICSPlainColorViewController.m */; };
+		CB9785C01AC7B4FE00C9D938 /* ICSDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9785BA1AC7B4FE00C9D938 /* ICSDrawerController.m */; };
+		CB9785C11AC7B4FE00C9D938 /* ICSDropShadowView.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9785BC1AC7B4FE00C9D938 /* ICSDropShadowView.m */; };
+		CB9785C51AC7B55900C9D938 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9785C41AC7B55900C9D938 /* LoginViewController.m */; };
+		CB9785C81AC7B5A300C9D938 /* InputInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9785C71AC7B5A300C9D938 /* InputInfoView.m */; };
+		CB9785CC1AC7B64300C9D938 /* LoginManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9785CB1AC7B64300C9D938 /* LoginManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +48,20 @@
 		CB6149901AB1DD92000F1FD2 /* EnumDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnumDefine.h; sourceTree = "<group>"; };
 		CB614A751AB1E0B8000F1FD2 /* NetworkInterfaceDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkInterfaceDefine.h; sourceTree = "<group>"; };
 		CB9785A31AC7A90300C9D938 /* Global.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Global.h; sourceTree = "<group>"; };
-		CB9785A51AC7AEAB00C9D938 /* ICSDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICSDrawerController.h; sourceTree = "<group>"; };
-		CB9785A61AC7AEAB00C9D938 /* ICSDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICSDrawerController.m; sourceTree = "<group>"; };
-		CB9785A71AC7AEAB00C9D938 /* ICSDropShadowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICSDropShadowView.h; sourceTree = "<group>"; };
-		CB9785A81AC7AEAB00C9D938 /* ICSDropShadowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICSDropShadowView.m; sourceTree = "<group>"; };
 		CB9785AB1AC7AF6F00C9D938 /* ICSColorsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICSColorsViewController.h; sourceTree = "<group>"; };
 		CB9785AC1AC7AF6F00C9D938 /* ICSColorsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICSColorsViewController.m; sourceTree = "<group>"; };
 		CB9785AD1AC7AF6F00C9D938 /* ICSPlainColorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICSPlainColorViewController.h; sourceTree = "<group>"; };
 		CB9785AE1AC7AF6F00C9D938 /* ICSPlainColorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICSPlainColorViewController.m; sourceTree = "<group>"; };
+		CB9785B91AC7B4FE00C9D938 /* ICSDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICSDrawerController.h; sourceTree = "<group>"; };
+		CB9785BA1AC7B4FE00C9D938 /* ICSDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICSDrawerController.m; sourceTree = "<group>"; };
+		CB9785BB1AC7B4FE00C9D938 /* ICSDropShadowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICSDropShadowView.h; sourceTree = "<group>"; };
+		CB9785BC1AC7B4FE00C9D938 /* ICSDropShadowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICSDropShadowView.m; sourceTree = "<group>"; };
+		CB9785C31AC7B55900C9D938 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		CB9785C41AC7B55900C9D938 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		CB9785C61AC7B5A300C9D938 /* InputInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputInfoView.h; sourceTree = "<group>"; };
+		CB9785C71AC7B5A300C9D938 /* InputInfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InputInfoView.m; sourceTree = "<group>"; };
+		CB9785CA1AC7B64300C9D938 /* LoginManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginManager.h; sourceTree = "<group>"; };
+		CB9785CB1AC7B64300C9D938 /* LoginManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -204,6 +213,7 @@
 		CB61498A1AB1DD92000F1FD2 /* Service */ = {
 			isa = PBXGroup;
 			children = (
+				CB9785C91AC7B62B00C9D938 /* LoginService */,
 				CB61498B1AB1DD92000F1FD2 /* FileOperationService */,
 				CB61498E1AB1DD92000F1FD2 /* Global */,
 				CB6149971AB1DD92000F1FD2 /* LocationService */,
@@ -246,7 +256,8 @@
 		CB6149C61AB1DD92000F1FD2 /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				CB9785A41AC7AEAB00C9D938 /* ICSDrawerController */,
+				CB9785B11AC7B4FE00C9D938 /* BaseController */,
+				CB9785C21AC7B52700C9D938 /* Login */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -259,16 +270,43 @@
 			path = Comon;
 			sourceTree = "<group>";
 		};
-		CB9785A41AC7AEAB00C9D938 /* ICSDrawerController */ = {
+		CB9785B11AC7B4FE00C9D938 /* BaseController */ = {
 			isa = PBXGroup;
 			children = (
-				CB9785A51AC7AEAB00C9D938 /* ICSDrawerController.h */,
-				CB9785A61AC7AEAB00C9D938 /* ICSDrawerController.m */,
-				CB9785A71AC7AEAB00C9D938 /* ICSDropShadowView.h */,
-				CB9785A81AC7AEAB00C9D938 /* ICSDropShadowView.m */,
+				CB9785B81AC7B4FE00C9D938 /* ICSDrawerController */,
 			);
-			name = ICSDrawerController;
-			path = BaseController/ICSDrawerController;
+			path = BaseController;
+			sourceTree = "<group>";
+		};
+		CB9785B81AC7B4FE00C9D938 /* ICSDrawerController */ = {
+			isa = PBXGroup;
+			children = (
+				CB9785B91AC7B4FE00C9D938 /* ICSDrawerController.h */,
+				CB9785BA1AC7B4FE00C9D938 /* ICSDrawerController.m */,
+				CB9785BB1AC7B4FE00C9D938 /* ICSDropShadowView.h */,
+				CB9785BC1AC7B4FE00C9D938 /* ICSDropShadowView.m */,
+			);
+			path = ICSDrawerController;
+			sourceTree = "<group>";
+		};
+		CB9785C21AC7B52700C9D938 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				CB9785C31AC7B55900C9D938 /* LoginViewController.h */,
+				CB9785C41AC7B55900C9D938 /* LoginViewController.m */,
+				CB9785C61AC7B5A300C9D938 /* InputInfoView.h */,
+				CB9785C71AC7B5A300C9D938 /* InputInfoView.m */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		CB9785C91AC7B62B00C9D938 /* LoginService */ = {
+			isa = PBXGroup;
+			children = (
+				CB9785CA1AC7B64300C9D938 /* LoginManager.h */,
+				CB9785CB1AC7B64300C9D938 /* LoginManager.m */,
+			);
+			path = LoginService;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -371,11 +409,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB9785C11AC7B4FE00C9D938 /* ICSDropShadowView.m in Sources */,
+				CB9785C81AC7B5A300C9D938 /* InputInfoView.m in Sources */,
+				CB9785C01AC7B4FE00C9D938 /* ICSDrawerController.m in Sources */,
+				CB9785CC1AC7B64300C9D938 /* LoginManager.m in Sources */,
 				CB9785AF1AC7AF6F00C9D938 /* ICSColorsViewController.m in Sources */,
 				CB6148AD1AB1DA1C000F1FD2 /* AppDelegate.m in Sources */,
-				CB9785A91AC7AEAB00C9D938 /* ICSDrawerController.m in Sources */,
+				CB9785C51AC7B55900C9D938 /* LoginViewController.m in Sources */,
 				CB6148AA1AB1DA1C000F1FD2 /* main.m in Sources */,
-				CB9785AA1AC7AEAB00C9D938 /* ICSDropShadowView.m in Sources */,
 				CB9785B01AC7AF6F00C9D938 /* ICSPlainColorViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
