@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		05A47CD91AD6970A00A4C9DE /* VIPhotoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 05A47CD71AD6970A00A4C9DE /* VIPhotoView.m */; };
+		05A47CDB1AD698A200A4C9DE /* test.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 05A47CDA1AD698A200A4C9DE /* test.jpg */; };
 		CB6148AA1AB1DA1C000F1FD2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CB6148A91AB1DA1C000F1FD2 /* main.m */; };
 		CB6148AD1AB1DA1C000F1FD2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CB6148AC1AB1DA1C000F1FD2 /* AppDelegate.m */; };
 		CB6148C71AB1DA1C000F1FD2 /* CommonWorkspaceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB6148C61AB1DA1C000F1FD2 /* CommonWorkspaceTests.m */; };
@@ -33,6 +35,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		05A47CD71AD6970A00A4C9DE /* VIPhotoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VIPhotoView.m; sourceTree = "<group>"; };
+		05A47CD81AD6970A00A4C9DE /* VIPhotoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VIPhotoView.h; sourceTree = "<group>"; };
+		05A47CDA1AD698A200A4C9DE /* test.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test.jpg; sourceTree = "<group>"; };
 		CB6148A41AB1DA1C000F1FD2 /* CommonWorkspace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CommonWorkspace.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB6148A81AB1DA1C000F1FD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CB6148A91AB1DA1C000F1FD2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -82,9 +87,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		05A47CD61AD696F200A4C9DE /* ViewPic */ = {
+			isa = PBXGroup;
+			children = (
+				05A47CD71AD6970A00A4C9DE /* VIPhotoView.m */,
+				05A47CD81AD6970A00A4C9DE /* VIPhotoView.h */,
+			);
+			name = ViewPic;
+			sourceTree = "<group>";
+		};
 		CB61489B1AB1DA1C000F1FD2 = {
 			isa = PBXGroup;
 			children = (
+				05A47CD61AD696F200A4C9DE /* ViewPic */,
 				CB6148A61AB1DA1C000F1FD2 /* CommonWorkspace */,
 				CB6148C31AB1DA1C000F1FD2 /* CommonWorkspaceTests */,
 				CB6148A51AB1DA1C000F1FD2 /* Products */,
@@ -189,6 +204,7 @@
 		CB6149821AB1DD92000F1FD2 /* Image */ = {
 			isa = PBXGroup;
 			children = (
+				05A47CDA1AD698A200A4C9DE /* test.jpg */,
 				CB6149831AB1DD92000F1FD2 /* Images.xcassets */,
 			);
 			path = Image;
@@ -392,6 +408,7 @@
 				CB614A331AB1DD93000F1FD2 /* LaunchScreen.xib in Resources */,
 				CB614A321AB1DD93000F1FD2 /* Images.xcassets in Resources */,
 				CB614A341AB1DD93000F1FD2 /* Main.storyboard in Resources */,
+				05A47CDB1AD698A200A4C9DE /* test.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,6 +434,7 @@
 				CB6148AD1AB1DA1C000F1FD2 /* AppDelegate.m in Sources */,
 				CB9785C51AC7B55900C9D938 /* LoginViewController.m in Sources */,
 				CB6148AA1AB1DA1C000F1FD2 /* main.m in Sources */,
+				05A47CD91AD6970A00A4C9DE /* VIPhotoView.m in Sources */,
 				CB9785B01AC7AF6F00C9D938 /* ICSPlainColorViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

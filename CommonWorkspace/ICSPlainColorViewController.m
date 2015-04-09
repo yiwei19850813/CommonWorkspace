@@ -23,7 +23,7 @@
 //  CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 #import "ICSPlainColorViewController.h"
-
+#import "VIPhotoView.h"
 
 
 @interface ICSPlainColorViewController ()
@@ -52,6 +52,10 @@
     [self.openDrawerButton addTarget:self action:@selector(openDrawer:) forControlEvents:UIControlEventTouchUpInside];
     
     [self.view addSubview:self.openDrawerButton];
+    UIImage *image = [UIImage imageNamed:@"test.jpg"];
+    VIPhotoView *photoView = [[VIPhotoView alloc] initWithFrame:self.view.bounds andImage:image];
+    photoView.autoresizingMask = (1 << 6) -1;
+    [self.view addSubview:photoView];
 }
 
 #pragma mark - Configuring the view’s layout behavior
